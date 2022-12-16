@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=Martian+Mono:wght@400;700&family=Playfair+Display+SC&display=swap"
+    rel="stylesheet">
+  <title>Calculadora IMC (console)</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <h1>Calculadora IMC</h1>
+  <section class="form">
+    <form id="dados">
+      <label for="mass">Peso</label>
+      <div>
+        <input type="number" name="mass" id="mass"><span>kg</span>
+      </div>
+      <label for="height">Altura</label>
+      <div>
+        <input type="number" name="height" id="height"><span>m</span>
+      </div>
+      <button class="calcular">Calcular</button>
+    </form>
+    <section>
+      <pre><p id="resultados"></p></pre>
+    </section>
+  </section>
+  <script src="./script.js"></script>
+</body>
+
+</html>

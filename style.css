@@ -1,0 +1,47 @@
+body {
+  font-family: Helvetica;
+}
+
+#dados {
+  display: block;
+}
+
+#dados div {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+#dados label {
+  display: block;
+  margin-bottom: 4px;
+  font-size: 1.5rem;
+  margin-top: 16px;
+  font-family: "IBM Plex Mono", monospace;
+  font-weight: 700;
+}
+
+#dados input {
+  width: 80px;
+  padding: 4px;
+}
+
+#dados input,
+#dados span,
+#resultados {
+  font-family: "Martian Mono", monospace;
+  font-weight: 700;
+  font-size: 1.125rem;
+}
+
+.calcular {
+  cursor: pointer;
+  padding: 10px 20px;
+  margin-top: 16px;
+  font-family: "Martian Mono";
+}
+
+.form {
+  display: grid;
+  grid-template-columns: 200px 1fr;
+}
